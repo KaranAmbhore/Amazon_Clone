@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%; 
+    background-color: #00121c;
+    display: flex;
+    justify-content: space-evenly;
+     color: white;
+    align-items: center; 
+    font-family: Arial;
+}
+
+.nav-logo{
+    height: 60px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("logo.png");
+    height: 30px;
+    width: 100px;
+    background-size: cover;
+}
+.border{
+border: 1.5px solid transparent;
+}
+
+.border:hover{
+ border: 1.5px solid white;
+}
+
+.add-icon{
+    display: flex;
+}
+.add1{
+    font-size: 0.85rem;
+    padding-left: 15px;
+}
+.add2{
+    padding-left: 5px;
+}
+.searchbar{
+    height: 50px;
+    width: 620px;
+    display: flex;
+    align-items: center; 
+}
+.nav-search{
+     height: 40px;
+    width: 59px ;
+    background-color: #d67915;
+    font-size: 1.5rem;
+    text-align: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-top: 10px;
+    
+}
+
+.nav-select {
+    height: 50px;
+    width: 60px;
+    text-align: center ;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.nav-input {
+    height: 50px;
+    width: 100%;
+    font-family: Times New Roman;
+    font-size: 1rem;
+    padding-left: 15px;
+    border-radius: 0;
+}
+
+.sign {
+    font-size: 0.85rem;
+}
+
+.acc{
+    font-size: 1rem;
+}
+
+.ret{
+    font-size: 0.85rem;
+    
+}
+
+.orders{
+    font-weight: 700;
+}
+
+.cart{
+    
+    font-size: 1.4rem;
+}
+
+.panel{
+    height: 40px;
+    width: 100%;
+    background-color: #102936;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-family: Arial;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu-text{
+    padding-left: 5px;
+}
+
+.menu-items{
+    display: flex;
+    padding-left: 20px;
+   
+}
+
+.menu-items p {
+    padding-left: 15px;
+    font-family: copperplate;
+}
+
+body {
+    background-color: #ebe9e6;
+}
+
+  .hero-img{
+    background-image: url("hero_image.jpg");
+    height: 400px;
+    width: 100%;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    
+  
+} 
+
+.hero-text{
+    height: 50px;
+    width: 1000px;
+    background-color: white;
+    font-size: 0.9rem;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.hero-img a {
+    color: #0e5761;
+    text-decoration: none;
+}
+
+.object{
+    display: flex;
+    flex-wrap: wrap;
+    
+ }
+
+  .box1{
+    height: 400px;
+    width: 30%;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: -70px;
+    display: flex;  
+ 
+}
+
+.box-image1 {
+    height: 300px;
+    width: 250px;
+ /*   border: 1px solid black;
+    background-color: transparent;  */
+    background-image: url("box2.jpg");
+    background-size: contain;
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    
+    
+}
+
+.object h2 {
+    font-family: Times New Roman ;
+    margin-top: 0.7rem;
+    margin-left: 1.4rem;
+   
+    color: black;
+}
+ .box2{
+    height: 400px;
+    width: 30%;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: -70px;
+    display: flex; 
+}
+
+.box3{
+    height: 400px;
+    width: 30%;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: -70px;
+    display: flex;    
+}
+
+.box-image2 {
+    height: 300px;
+    width: 250px;
+ /*   border: 1px solid black;
+    background-color: transparent;  */
+    background-image: url("box3.jpg");
+    background-size: contain;
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+.box-image3 {
+    height: 300px;
+    width: 250px;
+ /*   border: 1px solid black;
+    background-color: transparent;  */
+    background-image: url("box4.jpg");
+    background-size: contain;
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+  /* .object a {
+   color: blue;
+ } */
+
+.box4{
+    height: 400px;
+    width: 30%;
+    background-color: white;
+     margin-left: 20px; 
+    margin-top: 30px; 
+    display: flex;    
+}
+
+.box-image4 {
+    height: 300px;
+    width: 250px;
+ /*   border: 1px solid black;
+    background-color: transparent;  */
+    background-image: url("box5.jpg");
+    background-size: cover;
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;  
+}
+
+.box5{
+    height: 400px;
+    width: 30%;
+    background-color: white;
+     margin-left: 20px; 
+    margin-top: 30px; 
+    display: flex;    
+}
+
+.box-image5 {
+    height: 300px;
+    width: 250px;
+ /*   border: 1px solid black;
+    background-color: transparent;  */
+    background-image: url("box1.jpg");
+    background-size: contain;
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;  
+}
+
+.box6{
+    height: 400px;
+    width: 30%;
+    background-color: white;
+     margin-left: 20px; 
+    margin-top: 30px; 
+    display: flex;    
+}
+
+.box-image6 {
+    height: 300px;
+    width: 250px;
+ /*   border: 1px solid black;
+    background-color: transparent;  */
+    background-image: url("box6.jpg");
+    background-size: contain;
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;  
+}
+
+.box7{
+    height: 400px;
+    width: 30%;
+    background-color: white;
+     margin-left: 20px; 
+    margin-top: 30px; 
+    display: flex;    
+}
+
+.box-image7 {
+    height: 300px;
+    width: 250px;
+ /*   border: 1px solid black;
+    background-color: transparent;  */
+    background-image: url("box7.jpg");
+    background-size: cover;
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;  
+}
+
+.box8{
+    height: 400px;
+    width: 30%;
+    background-color: white;
+     margin-left: 20px; 
+    margin-top: 30px; 
+    display: flex;    
+}
+
+.box-image8 {
+    height: 300px;
+    width: 250px;
+ /*   border: 1px solid black;
+    background-color: transparent;  */
+    background-image: url("box8.jpg");
+    background-size: contain;
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;  
+}
+
+.box9{
+    height: 400px;
+    width: 30%;
+    background-color: white;
+     margin-left: 20px; 
+    margin-top: 30px; 
+    display: flex; 
+    align-items: ;   
+}
+
+.box-image9 {
+    height: 300px;
+    width: 250px;
+ /*   border: 1px solid black;
+    background-color: transparent;  */
+    background-image: url("box9.jpg");
+    background-size: contain;
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;  
+}
+
+.see-more {
+    color:  #0e5761 ;
+    align-items: ;
+    margin-top: 350px;
+ /*   display: flex;
+    justify-content: center;
+    align-content: center;  */
+    margin-left: -90px;
+}
+
+footer .btt{
+    font-family: Serif;
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    border-top: 2px solid white;
+    background-color:  #102936;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.links {
+    height:300px;
+    width: 100%;
+    background-color:  #00121c;
+    color: white;
+    display: flex;
+    justify-content:space-between ;
+    
+}    
+
+.links ul {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 0.85rem;
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.links h3 {
+    font-family: serif;
+    
+}
+
+.logo-amazon {
+    height: 100px;
+    border-top: 0.5px solid white;
+    background-color:  #102936;
+  /*  background-image: url("logo.png");  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo-place {
+    height: 35px;
+    width: 120px;
+    background-image: url("logo.png");
+    background-size: cover;
+    
+}
+
+.copyright {
+    display: flex;
+     height: 60px;    
+    font-size: 0.9rem;
+    border-top: 1px solid transparent;
+    background-color:    #00121c ;
+    color: white;
+    margin-top: -20px;
+    justify-content:center ;
+    align-items: center;
+}
+
+.copy {
+    font-family: arial;
+    display: flex;
+    font-size: 0.85rem;
+    margin-top: -30px; 
+    color: white;
+    background-color: #00121c ;
+    justify-content: center;
+} 
+
+.copyright p{
+    margin-top: -25px;
+    margin-left: 20px;
+}
